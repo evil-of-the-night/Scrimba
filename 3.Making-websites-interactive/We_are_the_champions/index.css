@@ -1,0 +1,120 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+.container {
+	margin: 0 auto;
+	display: flex;
+	background-color: #1b1924;
+	color: white;
+	flex-direction: column;
+	max-width: 400px;
+	padding: 50px 36px;
+	gap: 12px;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	margin: 0;
+	text-align: center;
+}
+
+#image {
+	width: 90px;
+	margin: 0px auto;
+}
+
+#endorsment-area {
+	margin: 0px auto;
+	width: 360px;
+	height: 118px;
+	border-radius: 8px;
+	background: #444059;
+	border: none;
+	text-align: start;
+	padding: 15px 20px;
+	resize: none;
+	color: #8f8f8f;
+	font-family: 'Inter', sans-serif;
+	font-size: 15px;
+}
+
+#recipients {
+	display: flex;
+	gap: 10px;
+	justify-content: space-around;
+}
+
+#publish {
+	border-radius: 8px;
+	background: #28a9f1;
+	color: #04131c;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: bold;
+	padding: 20px 0px;
+	border: none;
+}
+
+#from,
+#to {
+	background-color: #444059;
+	width: 155px;
+	text-align: center;
+	color: #8f8f8f;
+	font-family: 'Inter', sans-serif;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 8px;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin: 10px;
+	text-align: center;
+}
+
+.endorsements {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.endorsement-card {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	justify-content: start;
+}
+
+.author,
+.likes {
+	color: #1b1924;
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.endorsement {
+	color: #1b1924;
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.endorsement-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}

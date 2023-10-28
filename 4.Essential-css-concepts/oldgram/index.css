@@ -1,0 +1,99 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans 3', sans-serif;
+	background-color: #ededed;
+}
+
+.container {
+	width: 355px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #c6c6c6;
+	padding: 10px;
+	align-items: center;
+}
+
+.logo {
+	height: 40px;
+}
+
+.user {
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+}
+
+/* Post */
+
+.post {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 20px solid #ededed;
+}
+
+.post-header {
+	display: flex;
+	margin: 2px 5px;
+	padding: 5px;
+	gap: 10px;
+	align-items: center;
+}
+
+.post-icon {
+	border-radius: 50%;
+	width: 34px;
+	height: 34px;
+}
+
+.post-author {
+	font-size: 13px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.post-author-place {
+	font-size: 12px;
+	margin: 0;
+}
+
+.post-img {
+	width: 100%;
+}
+
+.post-metadata {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 15px 10px;
+}
+
+.post-metadata p {
+	margin: 0;
+}
+
+.post-actions {
+	/* padding: 15px 10px; */
+	display: flex;
+	gap: 10px;
+}
+
+.post-actions img {
+	height: 24px;
+	width: 20px;
+}
+
+.post-comment,
+.post-likes {
+	font-size: 14px;
+}
+
+.bold-text {
+	font-weight: bold;
+}
